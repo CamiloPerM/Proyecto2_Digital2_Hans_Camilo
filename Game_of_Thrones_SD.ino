@@ -1,5 +1,3 @@
-
-
 /*
   Camilo Perafan Montoya
   Carne 17092
@@ -50,8 +48,8 @@ void setup() {
 
 }
 
-//Se lee el valor de las notas y su duracion de la memoria SD
-void loop() {
+//Funcion que lee el valor de las notas y su duracion de la memoria SD y reproduce la cancion correspondiente
+void OST(void) {
 
   //Se abre el archivo que contiene las notas de la cancion
   myFile1 = SD.open("Notas.txt");
@@ -132,4 +130,8 @@ void loop() {
     Serial.println("error opening test.txt");
   }
 
+}
+
+void loop() {
+  OST();
 }
