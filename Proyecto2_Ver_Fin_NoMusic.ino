@@ -41,8 +41,8 @@ int DPINS[] = {PB_0, PB_1, PB_2, PB_3, PB_4, PB_5, PB_6, PB_7};
 #define SALTAR_J2 PF_4
 #define AGACHARSE_J2 PF_0
 
-#define SALTAR_J1 PA_7
-#define AGACHARSE_J1 PA_6
+#define SALTAR_J1 PA_2
+#define AGACHARSE_J1 PA_3
 
 //***************************************************************************************************************************************
 // Functions Prototypes
